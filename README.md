@@ -1,5 +1,5 @@
 # wcf-policy
-Sample application showing an implementation of a service policy using WCF
+Sample application showing an implementation of a service policy using WCF.
 
 See https://ajdotnet.wordpress.com/2014/11/23/building-your-own-policy-with-wcf/ for background.
 
