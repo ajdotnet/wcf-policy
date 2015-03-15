@@ -1,0 +1,1 @@
+svcutil /config:app.config /svcutilConfig:app.config /namespace:*,TrackingPolicy.TestClient.TestService /reference:TrackingPolicy.ServiceModel.dll http://localhost:33333/Services/TestService.svc?singleWsdl 

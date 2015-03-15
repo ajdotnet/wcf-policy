@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingPolicy.TestServer", "TrackingPolicy.TestServer\TrackingPolicy.TestServer.csproj", "{3A0B207C-7FE7-4EFF-A292-972578434076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingPolicy.TestClient", "TrackingPolicy.TestClient\TrackingPolicy.TestClient.csproj", "{3B0ADE45-B511-4B46-AE00-DA7A4ECC2DA0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A0B207C-7FE7-4EFF-A292-972578434076} = {3A0B207C-7FE7-4EFF-A292-972578434076}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingPolicy.ServiceModel", "TrackingPolicy.ServiceModel\TrackingPolicy.ServiceModel.csproj", "{6AFAB2CB-9DA5-4740-A66D-3EB3F46D421B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB444D0F-5449-44BF-A53E-21FB9C049E1D}"
+	ProjectSection(SolutionItems) = preProject
+		TrackingPolicy.ruleset = TrackingPolicy.ruleset
+		CustomDictionary.xml = CustomDictionary.xml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A0B207C-7FE7-4EFF-A292-972578434076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0B207C-7FE7-4EFF-A292-972578434076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0B207C-7FE7-4EFF-A292-972578434076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0B207C-7FE7-4EFF-A292-972578434076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0ADE45-B511-4B46-AE00-DA7A4ECC2DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0ADE45-B511-4B46-AE00-DA7A4ECC2DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0ADE45-B511-4B46-AE00-DA7A4ECC2DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0ADE45-B511-4B46-AE00-DA7A4ECC2DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFAB2CB-9DA5-4740-A66D-3EB3F46D421B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFAB2CB-9DA5-4740-A66D-3EB3F46D421B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFAB2CB-9DA5-4740-A66D-3EB3F46D421B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFAB2CB-9DA5-4740-A66D-3EB3F46D421B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

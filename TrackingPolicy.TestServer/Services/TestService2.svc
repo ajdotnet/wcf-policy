@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="TrackingPolicy.TestServer.Services.TestService2" CodeBehind="TestService2.svc.cs" %>
