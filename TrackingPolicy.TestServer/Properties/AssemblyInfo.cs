@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ajdotnet.wordpress.com")]
 [assembly: AssemblyProduct("TrackingPolicy.TestServer")]
-[assembly: AssemblyCopyright("AJ.NET")]
+[assembly: AssemblyCopyright("Alexander Jung")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
